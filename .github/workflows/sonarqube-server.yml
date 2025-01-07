@@ -44,6 +44,7 @@ jobs:
           SONAR_HOST_URL: ${{ vars.SONAR_HOST_URL }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
+          cd sonar-scanner-gradle/gradle-basic
           ./gradlew build sonar --info -d 
           -Dsonar.projectKey=$ORG_NAME-gh_$PROJECT_NAME
           -Dsonar.projectName=$ORG_NAME-gh_$PROJECT_NAME 
