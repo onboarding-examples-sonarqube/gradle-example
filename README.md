@@ -16,7 +16,7 @@ __**PLEASE READ OUR SONARQUBE DOCUMENTATION FOR WORKING WITH GITHUB ACTIONS PIPE
     - SonarQube Server Example: SonarQube-Server.yml 
 
 ## Important Links
-- SonarQube Server - GitHub Integration > https://docs.sonarsource.com/sonarqube-server/latest/devops-platform-integration/github-integration/introduction/  
+[SonarQube Server - GitHub Integration](https://docs.sonarsource.com/sonarqube-server/latest/devops-platform-integration/github-integration/introduction/)  
 - SonarQube Cloud - GitHub Integration > https://docs.sonarsource.com/sonarqube-cloud/getting-started/github/  
 - GitHub Actions Workflow with SonarQube Scanner > https://docs.sonarsource.com/sonarqube-server/latest/devops-platform-integration/github-integration/adding-analysis-to-github-actions-workflow/   
 - SonarScanner Analysis Scope > https://docs.sonarsource.com/sonarqube-server/latest/project-administration/analysis-scope/  
