@@ -16,11 +16,11 @@ GitHub Actions Workflow with SonarQube Scanner > https://docs.sonarsource.com/so
     - SonarQube Server Example: SonarQube-Server.yml 
 
 ## Important Links
-SonarQube Server - GitHub Integration > https://docs.sonarsource.com/sonarqube-server/latest/devops-platform-integration/github-integration/introduction/  
-SonarQube Cloud - GitHub Integration > https://docs.sonarsource.com/sonarqube-cloud/getting-started/github/  
-GitHub Actions Workflow with SonarQube Scanner > https://docs.sonarsource.com/sonarqube-server/latest/devops-platform-integration/github-integration/adding-analysis-to-github-actions-workflow/   
-SonarScanner Analysis Scope > https://docs.sonarsource.com/sonarqube-server/latest/project-administration/analysis-scope/  
-SonarScanner Analysis Parameters > https://docs.sonarsource.com/sonarqube-server/latest/analyzing-source-code/analysis-parameters/  
+- SonarQube Server - GitHub Integration > https://docs.sonarsource.com/sonarqube-server/latest/devops-platform-integration/github-integration/introduction/  
+- SonarQube Cloud - GitHub Integration > https://docs.sonarsource.com/sonarqube-cloud/getting-started/github/  
+- GitHub Actions Workflow with SonarQube Scanner > https://docs.sonarsource.com/sonarqube-server/latest/devops-platform-integration/github-integration/adding-analysis-to-github-actions-workflow/   
+- SonarScanner Analysis Scope > https://docs.sonarsource.com/sonarqube-server/latest/project-administration/analysis-scope/  
+- SonarScanner Analysis Parameters > https://docs.sonarsource.com/sonarqube-server/latest/analyzing-source-code/analysis-parameters/  
 
 ## Example to fail the entire pipeline if Quality Gate fails
 There may be situations or branches in which you will like to fail the pipeline if the SonarQube Quality Gate fails in order to stop any other steps in the pipeline.  
