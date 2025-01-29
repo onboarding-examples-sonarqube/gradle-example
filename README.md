@@ -9,7 +9,7 @@ __**PLEASE READ OUR SONARQUBE DOCUMENTATION FOR WORKING WITH GITHUB ACTIONS PIPE
 ## Important Information in Pipelines
 - triggers are set to only execute on changes to main branch and a specific directory in the project, this can be modified with whatever you would want to specify.
 - they have shallow fetch set to 0. this is required for SonarScanner to properly analyze your project.  
-- please remember to check the version available for the **cliScannerVersion** (https://github.com/SonarSource/sonar-scanner-cli/tags) parameter in the **SonarQubePrepare/SonarCloudPrepare** step.
+- please remember to check the version available for the [**cliScannerVersion**](https://github.com/SonarSource/sonar-scanner-cli/tags) parameter in the **SonarQubePrepare/SonarCloudPrepare** step.
 - for more information on how to limit your analysis scope and parameters available, please check **SonarScanner Analysis Scope** and **SonarScanner Analysis Parameters** in the Important Links section.
 - For running the SonarScanner via Gradle, it is the same command for SonarQube Server and SonarQube Cloud. The only thing that changes are the parameters for the URL and for Cloud you will need to add the organization name. Examples for both are provided.
     - SonarQube Cloud Example: SonarQube-Cloud.yml  
