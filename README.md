@@ -4,7 +4,7 @@ This project is an example of using Azure DevOps for a java/gradle project. It d
 We have multiple CI/CD Pipeline examples, one for running the SonarScanner and sending the results to SonarQube Server and the other for sending the results to SonarQube Cloud.  
 
 __**PLEASE READ OUR SONARQUBE DOCUMENTATION FOR WORKING WITH GITHUB ACTIONS PIPELINES**__  
-GitHub Actions Workflow with SonarQube Scanner > https://docs.sonarsource.com/sonarqube-server/latest/devops-platform-integration/github-integration/adding-analysis-to-github-actions-workflow/  
+[GitHub Actions Workflow with SonarQube Scanner](https://docs.sonarsource.com/sonarqube-server/latest/devops-platform-integration/github-integration/adding-analysis-to-github-actions-workflow/)  
 
 ## Important Information in Pipelines
 - triggers are set to only execute on changes to main branch and a specific directory in the project, this can be modified with whatever you would want to specify.
