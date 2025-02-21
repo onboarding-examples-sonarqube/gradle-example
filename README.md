@@ -36,5 +36,5 @@ Example:
           -Dsonar.qualitygate.wait=true
 ```
 
-__**For more CI/CD pipeline examples please check:**__
-[CICD Pipeline_Onboarding Examples](https://github.com/sonar-solutions/CICD-Pipeline-Onboarding-Examples-List)
+__**For more examples please check:**__
+[Onboarding Examples](https://github.com/sonar-solutions/Onboarding-Examples-List)
