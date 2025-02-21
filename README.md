@@ -35,3 +35,6 @@ Example:
           -Dsonar.projectName=$(echo $GITHUB_REPOSITORY | cut -d'/' -f1)-gh_$(echo $GITHUB_REPOSITORY | cut -d'/' -f2) \
           -Dsonar.qualitygate.wait=true
 ```
+
+## For more CI/CD pipeline examples please check:
+[CICD Pipeline_Onboarding Examples](https://github.com/sonar-solutions/CICD-Pipeline-Onboarding-Examples-List)
