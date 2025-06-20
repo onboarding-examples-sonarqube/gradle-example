@@ -37,8 +37,8 @@ This can be achieved by adding `sonar.qualitygate.wait=true` to the parameters s
 Example:
 ``` sh
     ./gradlew build sonar --info -d \
-          -Dsonar.projectKey=$(echo $GITHUB_REPOSITORY | cut -d'/' -f1)-gh_$(echo $GITHUB_REPOSITORY | cut -d'/' -f2) \
-          -Dsonar.projectName=$(echo $GITHUB_REPOSITORY | cut -d'/' -f1)-gh_$(echo $GITHUB_REPOSITORY | cut -d'/' -f2) \
+          -Dsonar.projectKey=${PROJECT_KEY} \
+          -Dsonar.projectName=${PROJECT_KEY} \
           -Dsonar.qualitygate.wait=true
 ```
 
