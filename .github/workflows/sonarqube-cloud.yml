@@ -54,5 +54,5 @@ jobs:
             -Dsonar.token=$SONAR_TOKEN \
             -Dsonar.organization=github-onboarding-examples \
             -Dsonar.projectKey=${PROJECT_KEY} \
-            -Dsonar.projectName=${PROJECT_KEY}
+            -Dsonar.projectName="Onboarding Example - GitHub - Gradle Example"
   
