@@ -50,5 +50,5 @@ jobs:
         run: |
           cd sonar-scanner-gradle/gradle-basic
           ./gradlew build sonar --info -d \
-          -Dsonar.projectKey=${PROJECT_KEY} \
+          -Dsonar.projectKey=${{ env.PROJECT_KEY }} \
           -Dsonar.projectName="Onboarding Example - GitHub - Gradle Example"
